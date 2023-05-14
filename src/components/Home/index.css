@@ -1,0 +1,106 @@
+.unordered-list{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   padding: 50px;
+   background-color: rgb(240, 243, 245);
+}
+.feed-item{
+    list-style-type: none;
+    border: 2px solid rgb(223, 215, 215);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    width: 35rem;
+    display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   padding-left: 30px;
+   margin-bottom: 3rem;
+}
+@media (max-width:768px) {
+    .unordered-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px;
+        background-color: rgb(240, 243, 245);
+     }
+    .feed-item{
+        list-style-type: none;
+        border: 2px solid rgb(223, 215, 215);
+        background-color: rgb(255, 255, 255);
+        border-radius: 5%;
+        width: 23rem;
+        display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: center;
+       padding-left: 20px;
+       margin-bottom: 2rem;
+    }
+}
+.user-img-name{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin: 10px 10px 10px 0px;
+}
+.user-img{
+  height: 3.8rem;
+  width: 3.9rem;
+  border-radius: 50%;
+  border: 1px solid rgb(138, 131, 131);
+  margin-right: 20px;
+}
+.user-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.post-img{
+    height:30rem;
+    width: 30rem;
+}
+@media (max-width:768px) {
+    .post-img{
+        height:20rem;
+        width: 20rem;
+    }
+}
+.user-name2{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.user-caption{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(77, 70, 70);
+    width: 32rem;
+
+}
+@media (max-width:768px) {
+    .user-caption{
+        font-size: 1rem;
+        font-weight: 500;
+        color: rgb(77, 70, 70);
+        width: 22rem;
+    
+    }
+}
+.icons-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 10px 0px;
+}
+
+.icon{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}

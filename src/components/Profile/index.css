@@ -1,0 +1,160 @@
+.main-container-profile{
+    background-color: rgb(240, 243, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-image{
+    height: 1rem;
+   width: 1rem;
+   border-radius: 50%;
+}
+.profile-details{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(223, 215, 215);
+    justify-content: center;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px;
+}
+@media (max-width:768px) {
+    .profile-details{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid rgb(223, 215, 215);
+        justify-content: center;
+        margin: 20px 20px 20px 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 80%;
+        padding: 20px;
+    }
+    .my-name{
+        margin-top: 30px;
+    }
+}
+
+.profile-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.unordered-list-myprofile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    flex-grow: 0;
+ }
+ .my-posts-head{
+    font-size: 2rem;
+     font-weight: 600;
+     color: rgb(77, 70, 70);
+     text-align: center;
+     margin: 20px;
+
+ }
+ .feed-item-myprofile{
+     list-style-type: none;
+     border: 2px solid rgb(223, 215, 215);
+     background-color: rgb(255, 255, 255);
+     border-radius: 5%;
+     width: 25rem;
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+ }
+ @media (max-width:768px) {
+     .unordered-list-myprofile{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: flex-start;
+         padding: 10px;
+         background-color: rgb(240, 243, 245);
+      }
+     .feed-item-myprofile{
+         list-style-type: none;
+         border: 2px solid rgb(223, 215, 215);
+         background-color: rgb(255, 255, 255);
+         border-radius: 5%;
+         width: 18rem;
+         display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 20px;
+        margin-bottom: 2rem;
+     }
+ }
+ .user-img-name-myprofile{
+     display: flex;
+     align-items: center;
+    justify-content: center;
+    margin: 10px 10px 10px 0px;
+ }
+ .user-img-myprofile{
+   height: 4rem;
+   width: 4rem;
+   border-radius: 50%;
+   border: 1px solid rgb(138, 131, 131);
+   margin-right: 20px;
+ }
+ .user-name-myprofile{
+     font-size: 1.5rem;
+     font-weight: 600;
+     color: rgb(0, 0, 0);
+ }
+ .post-img-myprofile{
+     height:20rem;
+     width: 20rem;
+ }
+ @media (max-width:768px) {
+     .post-img-myprofile{
+         height:14rem;
+         width: 14rem;
+     }
+ }
+ .user-name2-myprofile{
+     font-size: 1rem;
+     font-weight: 600;
+     color: rgb(0, 0, 0);
+ }
+ .user-caption-myprofile{
+     font-size: 1rem;
+     font-weight: 500;
+     color: rgb(77, 70, 70);
+ 
+ }
+ @media (max-width:768px) {
+     .user-caption-myprofile{
+         font-size: 1rem;
+         font-weight: 500;
+         color: rgb(77, 70, 70);
+     
+     }
+ }
+ .icons-cont-myprofile{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 10px 10px 10px 0px;
+ }
+ 
+ .icon-myprofile{
+     height: 2rem;
+     width: 2rem;
+     margin-right: 1.5rem;
+     cursor: pointer;
+ }

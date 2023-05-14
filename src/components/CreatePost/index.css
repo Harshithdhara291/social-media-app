@@ -1,0 +1,27 @@
+.create-container{
+    background-color: rgb(240, 243, 245);
+    height: 110vh;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    justify-content: center;
+    border: 2px solid rgb(223, 215, 215);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    padding: 60px;
+}
+.input{
+    margin-bottom: 30px;
+    width: 30rem;
+    height: 2.5rem;
+}
+.input-2{
+    margin-bottom: 30px;
+}
+.label{
+    color: rgb(59, 59, 55);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
